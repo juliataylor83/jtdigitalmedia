@@ -21,11 +21,19 @@
  * @uses jtdigitalmedia_header_style()
  */
 function jtdigitalmedia_custom_header_setup() {
+	
+	add_theme_support( 'custom-logo', array (
+		'width' => 250,
+		'height' => 60,
+		'flex-height' => false,
+		'flex-width' => false,
+	) );
+
 	add_theme_support( 'custom-header', apply_filters( 'jtdigitalmedia_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'default-text-color'     => 'ffffff',
+		'width'                  => 2600,
+		'height'                 => 920,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'jtdigitalmedia_header_style',
 	) ) );
