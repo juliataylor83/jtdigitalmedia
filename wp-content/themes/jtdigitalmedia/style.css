@@ -506,14 +506,13 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 5px solid;
+	border: 3px solid;
 	border-color: #3A506B;
 	border-radius: 5px;
 	background: #F0EEEE;
 	color: #3A506B;
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
-	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 1;
@@ -531,14 +530,13 @@ a.button,
 a.input[type="button"],
 a.input[type="reset"],
 a.input[type="submit"] {
-	border: 5px solid;
+	border: 3px solid;
 	border-color: #3A506B;
 	border-radius: 5px;
 	background: #F0EEEE;
 	color: #3A506B;
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
-	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
 	line-height: 1;
@@ -579,6 +577,7 @@ input[type="submit"]:hover {
 	border-color: #3A506B;
 	background: #3A506B;
 	color: #F0EEEE;
+	font-weight: normal;
 }
 
 a.button:hover,
@@ -588,6 +587,7 @@ a.input[type="submit"]:hover {
 	border-color: #3A506B;
 	background: #3A506B;
 	color: #F0EEEE;
+	font-weight: normal;
 }
 
 button:focus,
@@ -947,11 +947,24 @@ a:active {
 	.main-navigation a {
 		font-size: 20px;
 	}
+	.featured-image {
+		margin-top: 70px;
+	}
+	.featured-image-title {
+		font-size: 30px! important;
+	}
 }
 
 @media screen and (max-width: 37em) {
 	.main-navigation a {
 		font-size: 14px;
+	}
+	.featured-image {
+		margin-top: 60px;
+	}
+	.featured-image-title {
+		font-size: 20px! important;
+		padding-top: 8px;
 	}
 }
 
@@ -1081,7 +1094,6 @@ a:active {
 	margin-top: 170px;
 	text-align: center;
 	font-size: 60px;
-	text-shadow: -1px 0 #3A506B, 0 1px #3A506B, 1px 0 #3A506B, 0 -1px #3A506B;
 }
 
 .developer {
@@ -1089,19 +1101,16 @@ a:active {
 	font-size: 70px;
 	font-variant: small-caps;
 	font-weight: bold;
-	text-shadow: -1px 0 #3A506B, 0 1px #3A506B, 1px 0 #3A506B, 0 -1px #3A506B;
 }
 
 .designer {
 	font-family: 'Kaushan Scpirt', cursive;
 	font-size: 70px;
-	text-shadow: -1px 0 #3A506B, 0 1px #3A506B, 1px 0 #3A506B, 0 -1px #3A506B;
 }
 
 .custom {
 	font-family: 'Merriweather', serif;
 	font-size: 28px;
-	text-shadow: -1px 0 #3A506B, 0 1px #3A506B, 1px 0 #3A506B, 0 -1px #3A506B;
 }
 
 .custom::before {
@@ -1427,7 +1436,7 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-## Services Page
+## Pages
 --------------------------------------------------------------*/
 
 .featured-image {
@@ -1447,6 +1456,214 @@ a:active {
 	margin-top: -20px;
 }
 
+/*--------------------------------------------------------------
+## Services Page
+--------------------------------------------------------------*/
+
+.services-content {
+	width: 100%;
+	margin: auto;
+}
+
+#services-content-text {
+	width: 60%;
+	margin: auto;
+	background-color: #F0EEEE;
+	border-bottom: 2px solid #3A506B;
+}
+
+#services-content-text p {
+	color: #3A506B;
+	font-size: 16px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#services-content-services {
+	background-color: #F0EEEE;
+	width: 55%;
+	margin: auto;
+}
+
+#services-content-services h3, #services-content-services p {
+	color: #3A506B;
+}
+
+.services-icon1, .services-icon2, .services-icon3 {
+	float: left;
+	width: 20%;
+	text-align: center;
+	margin-top: 60px;
+	padding-right: 5px;
+}
+
+.services-text1, .services-text2, .services-text3 {
+	float: right;
+	width: 80%;
+	padding-left: 10px;
+}
+
+.design-wordpress-services {
+	clear: both;
+}
+
+.website-update-services {
+	clear: both;
+	margin-bottom: 60px;
+}
+
+.services-text3 {
+	padding-bottom: 60px;
+}
+
+#services-content-maintenance {
+	clear: both;
+	background-color: #9EAFC1;
+	padding: 20px 0;
+}
+
+#services-content-maintenance h1, #services-content-maintenance p {
+	width: 70%;
+	color: #3A506B;
+	margin: auto;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#services-content-maintenance a {
+	text-decoration: none;
+	color: #267DAD;
+}
+
+#services-content-maintenance a:hover {
+	color: #3A506B;
+}
+
+#services-content-working {
+	width: 100%;
+}
+
+#services-content-working h1 {
+	color: #3A506B;
+}
+
+.working-with-me {
+	width: 70%;
+	margin: auto;
+	color: #3A506B;
+}
+
+.working-with-me h3 {
+	font-size: 36px;
+	margin-top: 10px;
+	width: 50%;
+	margin: auto;
+	border-bottom: 3px solid #9EAFC1;
+}
+
+#working-define, #working-design, #working-develop, #working-deploy {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.working-with-me ul {
+	text-align: left;
+	margin-left: 5px;
+	width: 95%;
+	margin: auto;
+	list-style-type: circle;
+}
+
+.fa {
+	color: #267DAD;
+	margin: 30px 0;
+}
+
+.fa.fa-code.fa-4x {
+	margin-top: 22px;
+	margin-bottom: 36px;
+}
+
+@media screen and (max-width: 87.5em) {
+	#services-content-services {
+		width: 65%;
+	}
+	#services-content-text {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 75em) {
+	#services-content-services {
+		width: 70%;
+	}
+	#services-content-text {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 62.5em) {
+	#services-content-services {
+		width: 75%;
+	}
+	#services-content-text {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 58em) {
+	#services-content-services {
+		width: 90%;
+	}
+	#services-content-text {
+		width: 85%;
+	}
+	.services-icon1, .services-icon2, .services-icon3 {
+		float: none;
+		margin: auto;
+		padding-top: 40px;
+		padding-right: 0;
+	}
+
+	.services-text1, .services-text2, .services-text3 {
+		float: none;
+		margin: auto;
+		text-align: center;
+		padding-left: 0;
+	}
+	.services-text1 h3, .services-text2 h3, .services-text3 h3 {
+		margin-top: 0;
+	}
+	.services-text3 {
+		padding-bottom: 0;
+	}
+}
+
+
+/*--------------------------------------------------------------
+## Contact Page
+--------------------------------------------------------------*/
+
+.contact-content-text h1 {
+	color: #3A506B;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.contact-content-text p {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 20px 0 35px 0;
+	line-height: 26px;
+}
+
+.contact-content-text a {
+	text-decoration: none;
+}
 
 /*--------------------------------------------------------------
 ## Footer
@@ -1457,6 +1674,11 @@ a:active {
 	width: 100%;
 	margin: auto;
 	text-align: center;
+	background-color: #9EAFC1;
+}
+
+.site-footer-home {
+	background-color: #F0EEEE;
 }
 
 #copyright {
@@ -1469,7 +1691,6 @@ a:active {
 }
 
 #copyright a {
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -1499,6 +1720,9 @@ a:active {
 }
 .soc-icon.ln {
 	background: url(img/linkedin-icon.png) no-repeat center 0;
+}
+.soc-icon.gh {
+	background: url(img/github-icon.png) no-repeat center 0;
 }
 .social-btns .soc-icon:hover {
 	-moz-transform: scale(1) rotate(360deg);

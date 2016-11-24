@@ -22,6 +22,11 @@ get_header(); ?>
 
 
 			<div class="contact-content">
+				<div class="contact-content-text">
+					<h1>Ready to Get Started? Get in touch today!</h1>
+					<p>If you have a question or want to talk web development / visual design, fill in the form below or send me an email at <a href="mailto:julia@jt-digitalmedia.com" target="_blank">julia@jt-digitalmedia.com</a></p>
+				</div>
+
 				<?php
 				while ( have_posts() ) : the_post();
 
@@ -29,7 +34,8 @@ get_header(); ?>
 
 				endwhile; // End of the loop.
 				?>
-			</div><!-- .entry-content -->
+
+			</div><!-- .contact-content -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

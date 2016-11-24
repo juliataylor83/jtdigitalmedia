@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the footer.
+ * The template for displaying the custom footer for the hompage.
  *
  * Contains the closing of the #content div and all content after.
  *
@@ -17,7 +17,7 @@
 
 	<div class="footer-area full">
 		<div class="main-page">
-			<footer id="colophon" class="site-footer" role="contentinfo">
+			<footer id="colophon" class="site-footer-home" role="contentinfo">
 				<div class="site-info">
 
 					<div id="copyright">
