@@ -21,7 +21,7 @@
 				<div class="site-info">
 
 					<div id="copyright">
-						© 2016 <a href="http://jt-digitalmedia.com">JTDigitalMedia, LLC. </a>All Right Reserved. Proudly powered by <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jtdigitalmedia' ) ); ?>"><?php printf( esc_html__( '%s.', 'jtdigitalmedia' ), 'WordPress' ); ?></a>
+						© 2016 <a href="http://jt-digitalmedia.com">JTDigitalMedia, LLC. </a>All Right Reserved. Proudly powered by <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'jtdigitalmedia' ) ); ?>" target="_blank"><?php printf( esc_html__( '%s.', 'jtdigitalmedia' ), 'WordPress' ); ?></a>
 					</div>
 					<div class="social-btns">
 						<a href="https://facebook.com/jtdigitalmedia" target="_blank" class="soc-icon fb"></a>
