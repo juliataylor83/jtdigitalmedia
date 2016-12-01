@@ -1562,6 +1562,11 @@ a:active {
  	margin-left: 2%;
 }
 
+.nf-response-msg {
+	text-align: center;
+	font-weight: bold;
+}
+
 @media screen and (max-width: 58em) {
 	.contact-content {
 		width: 80%;
