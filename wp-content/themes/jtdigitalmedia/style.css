@@ -1082,12 +1082,25 @@ a:active {
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
-  	background-size: cover;
 	background-size: cover;
 	margin: -10px 0;
 	height: 730px;
     padding: 100px 0;
     width: 100%;
+}
+
+@media screen and (max-width: 75em) {
+	.home-page-image {
+		background: url("img/image5.jpg") no-repeat center;
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+		background-size: cover;
+		margin: -10px 0;
+		height: 730px;
+	    padding: 100px 0;
+	    width: 100%;
+	}
 }
 
 .homepage-hero p {
