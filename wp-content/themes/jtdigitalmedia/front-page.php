@@ -35,15 +35,15 @@ get_header(); ?>
 					    		?>
 
 					    		<li class="individual-featured-work">
-					    			<figure class="hovereffect">
-					    				<a href="<?php the_permalink(); ?>">
-					    					<?php echo wp_get_attachment_image($image_1, $size); ?>
-					    				</a>
-					    				<div class="overlay">
-					    					<h5><?php the_title(); ?></h5>
-					    					<a class="info" href="<?php the_permalink(); ?>">View Project</a>
-					    				</div
-					    			</figure>
+						    			<figure class="hovereffect">
+						    				<a href="<?php the_permalink(); ?>">
+						    					<?php echo wp_get_attachment_image($image_1, $size); ?>
+						    				</a>
+						    				<div class="overlay">
+						    					<h5><?php the_title(); ?></h5>
+						    					<a class="info" href="<?php the_permalink(); ?>">View Project</a>
+						    				</div
+						    			</figure>
 					  			</li>
 
 					  			<?php endwhile; ?> 

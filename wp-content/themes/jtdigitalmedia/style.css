@@ -1358,6 +1358,12 @@ a:active {
 	transition-delay:.2s;
 }
 
+@media screen and (max-width: 58em) {
+	.hovereffect .overlay {
+		z-index: -1;
+	}
+}
+
 .featured-work-content-button {
 	margin: 40px 0 60px 0;
 	clear: both;
@@ -1513,6 +1519,11 @@ a:active {
 	margin-bottom: 2px;
 	margin-top: 30px;
 	padding-bottom: 20px;
+}
+
+.home-page-content-contact p a {
+	color: #267DAD;
+	text-decoration: none;
 }
 
 @media screen and (max-width: 58em) {
