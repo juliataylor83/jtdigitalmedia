@@ -24,9 +24,8 @@ get_header(); ?>
 			<section class="services-content">
 				
 				<div id="services-content-text">
-					<p>Tired of your out-dated, non-responive, un-searchable website? Or perhaps you're starting a new business and it's time to launce your online presence? If so, you've come to the right place!</p>
-					<p>My websites include the newest visual design trends to ensure excellent User Experience (UX) and User Interface (UI). Plus, they are responsive (mobile- and tablet-ready) and utilize the lastest in Search Engine Optimization (SEO) best practices.</p>
-					<p>I build websites using WordPress, a popular Content Management Systems (CMS), which will give you the ability to manage your own content and updates - no need to pay extra every time you want to make a change to your site! I'll make sure you are set up for success with clean code and solid design, and then I'll train you to manage your own content.</p>
+					<p>Whether you’re looking to get your business online for the first time or perhaps you want a re-design, I’ve got the technical and design skills to take your online presence to the next level!</p>
+					<p>I build websites using WordPress, a popular Content Management Systems (CMS), which will give you the ability to manage your own content and updates. My websites include the newest visual design trends to ensure excellent User Experience (UX) and User Interface (UI). Plus, they are responsive (mobile- and tablet-ready) and utilize the lastest in Search Engine Optimization (SEO) best practices.</p>
 				</div>
 
 				<div id="services-content-services">
@@ -37,7 +36,7 @@ get_header(); ?>
 						<div class="services-text1">
 							<h3>Custom Development & Design</h3>
 							<p>Using the popular WordPress content management system, my websites are custom built, so you're guaranteed to get a one-of-a-kind product.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut ante ante. Integer sit amet interdum nibh. Phasellus aliquam mollis finibus. Nullam bibendum dignissim risus, vitae interdum risus cursus non.</p>
+							<p>Depending on your vision, requirements and budget, I'll work with you to come up with the best plan of attack for your website. For those of you on a lower budget, premium WordPress themes can be customized to ensure your end product is a beautiful and fully responsive website. If you want a website built from scratch, I can accomodate for this as well, and your end product will be 100% original with clean and elegant code.</p>
 						</div>
 					</div>
 
@@ -48,7 +47,7 @@ get_header(); ?>
 						<div class="services-text2">
 							<h3>Design to WordPress Website</h3>
 							<p>Already have a design in mind? Not sure how to make it into a functioning website? Not to worry, I can take your design and make it a reality.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut ante ante. Integer sit amet interdum nibh. Phasellus aliquam mollis finibus. Nullam bibendum dignissim risus, vitae interdum risus cursus non.</p>
+							<p>I have experience turning PSDs into fully functioning websites, so get in touch if you have a design in mind and I'll make it look and function exactly as you planned.</p>
 						</div>
 					</div>
 
@@ -59,14 +58,15 @@ get_header(); ?>
 						<div class="services-text3">
 							<h3>Website Update / Site Migration</h3>
 							<p>Perhaps you already have a functioning website, but you want an update or re-design.  Maybe you want to migrate your existing website to WordPress to enable easy updates yourself.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut ante ante. Integer sit amet interdum nibh. Phasellus aliquam mollis finibus. Nullam bibendum dignissim risus, vitae interdum risus cursus non.</p>
+							<p>Tired of your out-dated, non-responive, un-searchable website? I can take what you already have and make it even better - using visual design trends and responsive design, your updated site will be exactly what you need to kick-start that new initiative.</p>
+							<p>Or perhaps you're looking to migrate your existing site to WordPress? It's a smart move as over 26% of the world's websites are powered by WordPress!</p>
 						</div>
 					</div>
 				</div>
 
 				<div id="services-content-maintenance">
 					<h1>Maintenance & Support Packages</h1>
-					<p>This is a little diddy about my maintenance and support packages. Importand because security and updates oh my! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut ante ante. Integer sit amet interdum nibh. Phasellus aliquam mollis finibus. Nullam bibendum dignissim risus, vitae interdum risus cursus non.</p>
+					<p>WordPress websites require regular updates to ensure the site continues to run smoothly & securely. My maintenance and support packages are full service, focus on security and offer you peace of mind! Services include: updates, backups, security, tracking & reporting, hosting & domain name, among other services. Available to current, former and new clients.</p>
 					<p>If you'd like more information on the maintenance and support packages, head on over to the <a href="/contact">CONTACT</a> page and get in touch.</p>
 				</div>
 
@@ -74,11 +74,11 @@ get_header(); ?>
 					<h1>What's it like working with me?</h1>
 					<div class="working-with-me">
 						<div id="working-define">
-							<h3>Define</h3>
+							<h3>Discover</h3>
 							<i class="fa fa-list-alt fa-4x" aria-hidden="true"></i>
 							<ul class="working-define-text">
-								<li>Skype session to discuss vision & requirements</li>
-								<li>Review technical specifications</li>
+								<li>Skype session to discuss vision & goals</li>
+								<li>Review content, site architecture and technical specifications</li>
 								<li>Determine timeline</li>
 							</ul>
 						</div>

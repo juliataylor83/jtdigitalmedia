@@ -27,23 +27,40 @@ get_header(); ?>
 				<section class="featured-work">
 					<div class="home-page-content">
 						<h1>My Portfolio</h1>
-						<div class="featured-work-content">
-							<p>This is where the 3 boxes will go</p>
-							<p>This is where the 3 boxes will go</p>
-							<p>This is where the 3 boxes will go</p>
-							<p>This is where the 3 boxes will go</p>
+						<ul class="featured-work-content">
+							<?php query_posts('posts_per_page=3&post_type=portfolio&order=ASC'); ?>
+					    		<?php while ( have_posts() ) : the_post(); 
+					    			$image_1 = get_field("image_1");
+					    			$size = "featured-image";
+					    		?>
+
+					    		<li class="individual-featured-work">
+					    			<figure class="hovereffect">
+					    				<a href="<?php the_permalink(); ?>">
+					    					<?php echo wp_get_attachment_image($image_1, $size); ?>
+					    				</a>
+					    				<div class="overlay">
+					    					<h5><?php the_title(); ?></h5>
+					    					<a class="info" href="<?php the_permalink(); ?>">View Project</a>
+					    				</div
+					    			</figure>
+					  			</li>
+
+					  			<?php endwhile; ?> 
+							<?php wp_reset_query(); ?>
+
 							<div class="featured-work-content-button">
 								<a class="button" href="<?php echo home_url(); ?>/portfolio">View My Portfolio</a>
 							</div>
-						</div>
+						</ul>
 					</div>
 				</section>
 
 				<section class="quote">
 					<div class="home-page-content">
 						<div class="quote-content">
-							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut ante ante. Integer sit amet interdum nibh. Phasellus aliquam mollis finibus. Nullam bibendum dignissim risus, vitae interdum risus cursus non."</p>
-							<p>-Adam Watts, CEO & Founder, Desert Drones Imagery</p>
+							<p>"It was a pleasure working with Julia throughout the design and development process for my website. Not only did she take the project all the way from start to finish, but she also worked with me on content, video editing and social media strategy. Plus, she handled all the hosting and email setup, so the whole process was very easy!"</p>
+							<p>-Adam Watts, Founder & Director, Desert Drones Imagery</p>
 						</div>
 					</div>
 				</section>
@@ -80,7 +97,10 @@ get_header(); ?>
 
 				<section class="contact">
 					<div class="home-page-content">
-						<h1>Ready to Get Started?<br>Get in touch today!</h1>
+						<h1>Ready to Get Started? Get in touch today!</h1>
+						<div class="home-page-content-contact">
+							<p>If you have a question or want to talk web development / visual design, fill in the form below or send me an email at <a href="mailto:julia@jt-digitalmedia.com" target="_blank">julia@jt-digitalmedia.com</a></p>
+						</div>
 						<div class="contact-content">
 							<?php echo do_shortcode("[ninja_form id=1]"); ?>
 						</div>

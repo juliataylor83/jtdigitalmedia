@@ -41,6 +41,7 @@ function jtdigitalmedia_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'featured-image', 375, 300 );
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
@@ -116,6 +117,27 @@ function jtdigitalmedia_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'jtdigitalmedia_scripts' );
+
+function create_custom_post_types() {
+    register_post_type( 'portfolio',
+        array(
+            'labels' => array(
+                'name' => __( 'Portfolio' ),
+                'singular_name' => __( 'Portfolio Single' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'portfolio' ),
+            /** 'supports' => array( 'thumbnail' ), **/ //uncomment this out to add featured image to custom post type page and then comment out once featured image is set
+        )
+    );
+}
+add_action( 'init', 'create_custom_post_types' );
+
+function new_excerpt_more( $more ) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 
 /**
  * Implement the Custom Header feature.

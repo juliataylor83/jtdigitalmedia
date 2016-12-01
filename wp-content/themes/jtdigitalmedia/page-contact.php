@@ -21,7 +21,7 @@ get_header(); ?>
 			</div>
 
 
-			<div class="contact-content">
+			<section class="contact-content">
 				<div class="contact-content-text">
 					<h1>Ready to Get Started? Get in touch today!</h1>
 					<p>If you have a question or want to talk web development / visual design, fill in the form below or send me an email at <a href="mailto:julia@jt-digitalmedia.com" target="_blank">julia@jt-digitalmedia.com</a></p>
@@ -35,7 +35,7 @@ get_header(); ?>
 				endwhile; // End of the loop.
 				?>
 
-			</div><!-- .contact-content -->
+			</section><!-- .contact-content -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
