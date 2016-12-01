@@ -47,7 +47,7 @@ get_header(); ?>
 						<div class="services-text2">
 							<h3>Design to WordPress Website</h3>
 							<p>Already have a design in mind? Not sure how to make it into a functioning website? Not to worry, I can take your design and make it a reality.</p>
-							<p>I have experience turning PSDs into fully functioning websites, so get in touch if you have a design in mind and I'll make it look and function exactly as you planned.</p>
+							<p>I have experience turning Photoshop Designs into fully functioning websites, so get in touch if you have a design in mind and I'll make it look and function exactly as you planned.</p>
 						</div>
 					</div>
 
@@ -58,7 +58,7 @@ get_header(); ?>
 						<div class="services-text3">
 							<h3>Website Update / Site Migration</h3>
 							<p>Perhaps you already have a functioning website, but you want an update or re-design.  Maybe you want to migrate your existing website to WordPress to enable easy updates yourself.</p>
-							<p>Tired of your out-dated, non-responive, un-searchable website? I can take what you already have and make it even better - using visual design trends and responsive design, your updated site will be exactly what you need to kick-start that new initiative.</p>
+							<p>Tired of your out-dated, non-responive, un-searchable website? I can take what you already have and make it much better - using visual design trends and responsive design, your updated site will be exactly what you need to kick-start that new initiative.</p>
 							<p>Or perhaps you're looking to migrate your existing site to WordPress? It's a smart move as over 26% of the world's websites are powered by WordPress!</p>
 						</div>
 					</div>
@@ -66,7 +66,7 @@ get_header(); ?>
 
 				<div id="services-content-maintenance">
 					<h1>Maintenance & Support Packages</h1>
-					<p>WordPress websites require regular updates to ensure the site continues to run smoothly & securely. My maintenance and support packages are full service, focus on security and offer you peace of mind! Services include: updates, backups, security, tracking & reporting, hosting & domain name, among other services. Available to current, former and new clients.</p>
+					<p>WordPress websites require regular updates to ensure the site continues to run smoothly & securely. My maintenance and support packages are comprehensive, focus on security and offer you peace of mind! Services include: updates, backups, security, tracking & reporting, hosting & domain name, among other services. Available to current, former and new clients.</p>
 					<p>If you'd like more information on the maintenance and support packages, head on over to the <a href="/contact">CONTACT</a> page and get in touch.</p>
 				</div>
 

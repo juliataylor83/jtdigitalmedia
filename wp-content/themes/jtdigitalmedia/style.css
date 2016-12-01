@@ -968,6 +968,12 @@ a:active {
 	}
 }
 
+@media screen and (max-width: 20em) {
+	.main-navigation a {
+		font-size: 10px;
+	}
+}
+
 /*
 .site-logo a {
 	position: absolute;

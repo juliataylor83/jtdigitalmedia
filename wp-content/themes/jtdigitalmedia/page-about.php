@@ -35,7 +35,7 @@ get_header(); ?>
 					</figure>
 					<div class="about-content-top-text">
 						<h4>Hi, I'm Julia.</h4>
-						<p>I build websites using WordPress, a popular Content Management Systems (CMS), and focus on appearance, functionality, responsiveness and Search Engine Optimization</p>
+						<p>I build websites using WordPress, a popular Content Management Systems (CMS), and focus on appearance, functionality, responsiveness and Search Engine Optimization (SEO).</p>
 						<p>Whether you’re looking to get your business online for the first time or perhaps you want a re-design, I’ve got the technical and design skills to take your online presence to the next level!</p>
 						<div class="skills">
 							<div class="technical-skills">
