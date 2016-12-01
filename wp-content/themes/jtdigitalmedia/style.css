@@ -1090,6 +1090,21 @@ a:active {
     width: 100%;
 }
 
+@media screen and (max-width: 75em) {
+	.home-page-image {
+		background: url("img/image5small.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+		background-size: cover;
+		margin: -10px 0;
+		height: 730px;
+	    padding: 100px 0;
+	    width: 100%;
+	}
+}
+
 .homepage-hero p {
 	color: #F0EEEE;
 	padding: 25px 20px 15px;
