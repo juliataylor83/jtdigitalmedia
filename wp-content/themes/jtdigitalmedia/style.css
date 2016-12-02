@@ -930,8 +930,13 @@ a:active {
 @media screen and (max-width: 58em) {
 	.header-logo {
 		float: none;
-		padding-left: 60px;
+		padding-left: 50px;
 		text-align: center;
+		padding-top: 15px;
+	}
+	.header-logo img {
+		width: 166px;
+		height: 40px;
 	}
 	.main-navigation {
 		float: none;
@@ -939,13 +944,15 @@ a:active {
 	.main-navigation ul {
 		padding: 0;
 		text-align: center;
+		margin-top: -10px;
 	}
 	.main-navigation li {
 		float: none;
 		display: inline-block;
+		padding-bottom: 10px;
 	}
 	.main-navigation a {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.featured-image {
 		margin-top: 70px;
@@ -965,6 +972,10 @@ a:active {
 	.featured-image-title {
 		font-size: 20px! important;
 		padding-top: 8px;
+	}
+	.header-logo img {
+		width: 124px;
+		height: 30px;
 	}
 }
 
