@@ -1716,12 +1716,13 @@ a:active {
 
 .portfolio-content-text h2 {
 	padding-top: 10px;
+	margin-top: 10px;
 }
 
 .portfolio-content-images {
 	float: left;
 	width: 60%;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 40px;
 	text-align: right;
 }
@@ -1793,6 +1794,8 @@ a:active {
 @media screen and (max-width: 58em) {
 	.portfolio-content-text h2 {
 		font-size: 28px;
+		padding-top: 6px;
+		margin-top: 6px;
 	}
 	.portfolio-content-text h5, .portfolio-content-text p, .portfolio-content-text h5 a {
 		font-size: 14px;
@@ -1923,12 +1926,12 @@ a:active {
 
 .fa {
 	color: #267DAD;
-	margin: 30px 0;
+	margin: 20px 0;
 }
 
 .fa.fa-code.fa-4x {
-	margin-top: 22px;
-	margin-bottom: 36px;
+	margin-top: 14px;
+	margin-bottom: 24px;
 }
 
 @media screen and (max-width: 87.5em) {
@@ -1993,6 +1996,9 @@ a:active {
 	#services-content-text {
 		width: 85%;
 	}
+	#services-content-services h3 {
+		padding-top: 10px;
+	}
 	#services-content-text p {
 		font-size: 18px;
 	}
@@ -2040,6 +2046,16 @@ a:active {
 	}
 	.working-with-me h3 {
 		font-size: 20px;
+		border-bottom: none;
+	}
+	.fa {
+		color: #267DAD;
+		margin: 10px 0;
+	}
+
+	.fa.fa-code.fa-4x {
+		margin-top: 4px;
+		margin-bottom: 12px;
 	}
 }
 
@@ -2210,20 +2226,30 @@ a:active {
 .contact-content-text h1 {
 	color: #3A506B;
 	font-size: 30px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .contact-content-text p {
 	text-align: center;
 	width: 80%;
 	margin: auto;
-	padding: 20px 0 35px 0;
+	padding: 15px 0 25px 0;
 	line-height: 26px;
 }
 
 .contact-content-text a {
 	text-decoration: none;
 	color: #267DAD;
+}
+
+@media screen and (max-width: 58em) {
+	.contact-content-text h1 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.contact-content-text p {
+		padding-bottom: 10px;
+	}
 }
 
 @media screen and (max-width: 37em) {
