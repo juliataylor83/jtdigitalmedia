@@ -928,6 +928,9 @@ a:active {
 }
 
 @media screen and (max-width: 58em) {
+	.site-header {
+		position: absolute;
+	}
 	.header-logo {
 		float: none;
 		padding-left: 50px;
