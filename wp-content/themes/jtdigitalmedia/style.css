@@ -969,6 +969,9 @@ a:active {
 	.main-navigation a {
 		font-size: 14px;
 	}
+	.main-navigation li {
+		padding-right: 10px;
+	}
 	.featured-image {
 		margin-top: 2px;
 	}
@@ -1129,16 +1132,11 @@ a:active {
 	font-size: 60px;
 }
 
-.developer {
+.developer, .designer {
 	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	font-variant: small-caps;
 	font-weight: bold;
-}
-
-.designer {
-	font-family: 'Kaushan Scpirt', cursive;
-	font-size: 70px;
 }
 
 .custom {
@@ -1196,6 +1194,11 @@ a:active {
 	}
 	.developer, .designer {
 		font-size: 20px;
+	}
+	.designer {
+		font-family: 'Raleway', sans-serif;
+		font-variant: small-caps;
+		font-weight: bold;
 	}
 	.custom {
 		font-size: 16px;
@@ -2246,6 +2249,11 @@ a:active {
 }
 
 @media screen and (max-width: 58em) {
+	.contact h1 {
+		font-size: 36px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.contact-content-text h1 {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -2256,6 +2264,11 @@ a:active {
 }
 
 @media screen and (max-width: 37em) {
+	.contact h1 {
+		font-size: 26px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.contact-content-text h1 {
 		font-size: 24px;
 	}
@@ -2337,7 +2350,7 @@ a:active {
 		float: none;
 		width: 100%;
 		margin: auto;
-		padding: 10px 0;
+		padding: 10px 10px;
 		text-align: center;
 	}
 }
