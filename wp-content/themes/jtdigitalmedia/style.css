@@ -556,7 +556,7 @@ a.input[type="submit"] {
 	input[type="reset"],
 	input[type="submit"] {
 		border: 3px solid;
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 
@@ -566,7 +566,7 @@ a.input[type="submit"] {
 	a.input[type="reset"],
 	a.input[type="submit"] {
 		border: 3px solid;
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 
@@ -933,7 +933,7 @@ a:active {
 	}
 	.header-logo {
 		float: none;
-		padding-left: 50px;
+		padding-left: 40px;
 		text-align: center;
 		padding-top: 15px;
 	}
@@ -2265,7 +2265,7 @@ a:active {
 
 @media screen and (max-width: 37em) {
 	.contact h1 {
-		font-size: 26px;
+		font-size: 24px;
 		padding-right: 10px;
 		padding-left: 10px;
 	}
