@@ -95,7 +95,7 @@ get_header(); ?>
 							<h3>Develop</h3>
 							<i class="fa fa-code fa-4x" aria-hidden="true"></i>
 							<ul class="working-develop-text">
-								<li>Code: HTML, CSS, PHP, JaveScript, etc.</li>
+								<li>Code: HTML, CSS, PHP, JavaScript, etc.</li>
 								<li>Responsive Design</li>
 								<li>Review, amend & approve</li>
 							</ul>
