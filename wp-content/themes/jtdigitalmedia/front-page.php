@@ -70,26 +70,26 @@ get_header(); ?>
 						<h1>My Services</h1>
 						<div class="featured-services-content">
 							<div class="custom-development">
-								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/custom-icon2.png" width="128" height="128" class="alignnone size-full wp-image-95" />
+								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/custom-icon2.png" width="128" height="128" class="alignnone size-full wp-image-95" alt="Custom Icon" />
 								<h3>Custom Development & Design</h3>
 								<p>Using the popular WordPress content management system, my websites are custom built, so you're guaranteed to get a one-of-a-kind product.</p>
 							</div>
 
 							<div class="design-wordpress">
-								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/design-icon2.png" width="128" height="128" class="alignnone size-full wp-image-93" />
+								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/design-icon2.png" width="128" height="128" class="alignnone size-full wp-image-93" alt="Design Icon" />
 								<h3>Design to WordPress Website</h3>
 								<p>Already have a design in mind? Not sure how to make it into a functioning website? Not to worry, I can take your design and make it a reality.</p>
 							</div>
 
 							<div class="website-update">
-								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/website-icon2.png" width="128" height="128" class="alignnone size-full wp-image-94" />
+								<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/website-icon2.png" width="128" height="128" class="alignnone size-full wp-image-94" alt="Website Icon" />
 								<h3>Website Update / Site Migration</h3>
 								<p>Perhaps you already have a functioning website, but you want an update or re-design.  Maybe you want to migrate your existing website to WordPress to enable easy updates yourself.</p>
 							</div>
 
 							<div class="featured-services-content-button">
 								<a class="button" href="<?php echo home_url(); ?>/services">View My Services</a>
-							</div
+							</div>
 
 						</div>
 					</div>
