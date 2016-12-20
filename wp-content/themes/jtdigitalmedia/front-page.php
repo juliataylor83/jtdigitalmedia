@@ -42,7 +42,7 @@ get_header(); ?>
 						    				<div class="overlay">
 						    					<h5><?php the_title(); ?></h5>
 						    					<a class="info" href="<?php the_permalink(); ?>">View Project</a>
-						    				</div
+						    				</div>
 						    			</figure>
 					  			</li>
 

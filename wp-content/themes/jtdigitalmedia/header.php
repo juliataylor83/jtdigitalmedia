@@ -43,7 +43,7 @@
 
 					<div class="header-logo">
     					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-       						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-jtdigitalmedia2.png" alt="Logo" width="250px" height="60px" />
+       						<img src="<?php echo get_template_directory_uri(); ?>/img/logo-jtdigitalmedia2.png" alt="Logo" width="250" height="60" />
     					</a>
 					</div>
 
