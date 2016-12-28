@@ -1095,7 +1095,7 @@ a:active {
 --------------------------------------------------------------*/
 
 .home-page-image {
-	background: url("img/image5.jpg") no-repeat center fixed;
+	background: url("img/hero-image.jpg") no-repeat center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
