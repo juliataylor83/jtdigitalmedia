@@ -31,7 +31,7 @@ get_header(); ?>
 				<div id="services-content-services">
 					<div class="custom-development-services">
 						<figure class="services-icon1">
-							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/custom-icon2.png" width="128" height="128" class="alignnone size-full wp-image-95" alt="Custom Icon" />
+							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/12/custom_development_and_design_icon.png" width="128" height="128" class="alignnone size-full wp-image-95" alt="Custom Icon" />
 						</figure>
 						<div class="services-text1">
 							<h3>Custom Development & Design</h3>
@@ -42,7 +42,7 @@ get_header(); ?>
 
 					<div class="design-wordpress-services">
 						<figure class="services-icon2">
-							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/design-icon2.png" width="128" height="128" class="alignnone size-full wp-image-93" alt="Design Icon" />
+							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/12/design_to_wordpress_website_icon.png" width="128" height="128" class="alignnone size-full wp-image-93" alt="Design Icon" />
 						</figure>
 						<div class="services-text2">
 							<h3>Design to WordPress Website</h3>
@@ -53,7 +53,7 @@ get_header(); ?>
 
 					<div class="website-update-services">
 						<figure class="services-icon3">
-							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/11/website-icon2.png" width="128" height="128" class="alignnone size-full wp-image-94" alt="Website Icon" />
+							<img src="http://jt-digitalmedia.com/wp-content/uploads/2016/12/custom_development_and_design_icon.png" width="128" height="128" class="alignnone size-full wp-image-94" alt="Website Icon" />
 						</figure>
 						<div class="services-text3">
 							<h3>Website Update / Site Migration</h3>
