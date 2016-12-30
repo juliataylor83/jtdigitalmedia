@@ -1108,7 +1108,7 @@ a:active {
 
 @media screen and (max-width: 75em) {
 	.home-page-image {
-		background: url("img/image5.jpg") no-repeat center;
+		background: url("img/hero-image.jpg") no-repeat center;
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 	  	-o-background-size: cover;
